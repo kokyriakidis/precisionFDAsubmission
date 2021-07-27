@@ -137,12 +137,13 @@ dv_call_variants.py \
 --outfile ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/tmpdir/${SAMPLENAME}.tmp \
 --sample ${SAMPLENAME} \
 --examples ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/tmpdir \
---model wes
+--model wgs
 
+mkdir ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/results
 
-dv_postprocess_variants.py
---ref {snakemake.input.ref}
---infile ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/tmpdir/${SAMPLENAME}.tmp 
+dv_postprocess_variants.py \
+--ref ${WORKDIR}/${SUBMISSION}/reference/seq/hg38.fa \
+--infile ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/tmpdir/${SAMPLENAME}.tmp \
 --outfile ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/results/${SAMPLENAME}.vcf
 
 
