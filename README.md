@@ -3,7 +3,7 @@
 
 ## Prepare Conda Environment
 
-To reproduce the results of the submissions create a new conda environment using the requirements.txt file which contains the exact versions used during the submission.
+To reproduce the results of our submissions just create a new conda environment using the requirements.txt file. This file contains the exact versions of tools used during the submission.
 
 ```
 conda create --name genetres --file requirements.txt
@@ -12,4 +12,4 @@ conda activate genetres
 
 ## Submission runs
 
-To run the analysis simply edit the bash script containing the analysis you want to run and edit the variables at the top of the bash script. Then, just execute the bash script inside the activated conda environment. 
+To run the analysis simply edit the bash scripts containing the analysis you want to run and edit the global variables at the top of the bash scripts. Then, just execute the bash script inside the activated conda environment. 
