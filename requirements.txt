@@ -1,0 +1,7 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+atropos=1.1.27
+bbmap=38.86
+bwa=0.7.17
+deepvariant=0.10.0
+picard=2.22.7
