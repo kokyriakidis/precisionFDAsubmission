@@ -116,7 +116,7 @@ dv_call_variants.py \
 --outfile ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/tmpdir/${SAMPLENAME}.tmp \
 --sample ${SAMPLENAME} \
 --examples ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/tmpdir \
---model wes
+--model wgs
 
 mkdir ${WORKDIR}/${SUBMISSION}/DEEPVARIANT/results
 
