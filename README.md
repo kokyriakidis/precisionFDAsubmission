@@ -12,4 +12,4 @@ conda activate genetres
 
 ## Submission runs
 
-To run the analysis simply edit the bash scripts containing the analysis you want to run and edit the global variables at the top of the bash scripts. Then, just execute the bash script inside the activated conda environment. 
+To run the analysis simply edit the bash script containing the analysis you want to run and edit the global variables at the top lines. Then, just execute the bash script inside the activated conda environment. 
